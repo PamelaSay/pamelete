@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  
+ 
+<meta charset="UTF-8">
+  
+  <
+
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <
+<meta name="description" content="Site multifuncional de produtos educativos, jogos matemáticos e roupas">
+  
+  <
+<title>Minha Loja</title>
+  
+ 
+<!-- Estilos básicos -->
+  
+  <
+
+ 
+<style>
+   
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .header {
+      background-color: #0073e6;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 1rem;
+    }
+    .login-form, .product-list {
+      margin-top: 2rem;
+    }
+    .form-group {
+      margin-bottom: 1rem;
+    }
+    .form-group label {
+      display: block;
+      font-weight: bold;
+    }
+    .form-group input {
+      width: 100%;
+      padding: 0.5rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .button {
+      background-color: #0073e6;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    .button:hover {
+      background-color: #005bb5;
+    }
+    .product-item {
+      border: 1px solid #ccc;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 5px;
+    }
+    footer {
+      margin-top: 2rem;
+      text-align: center;
+      background-color: #0073e6;
+      color: white;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header class="header">
+    <h1>Minha Loja - Produtos Educativos e Jogos Matemáticos</h1>
+  </header>
+
+  <!-- Conteúdo principal -->
+  <div class="container">
+
+    <!-- Seção de Login -->
+    <section class="login-form">
+      <h2>Acesse sua conta</h2>
+      <form action="/login" method="POST">
+        <div class="form-group">
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" aria-label="Insira seu e-mail" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Senha:</label>
+          <input type="password" id="password" name="password" aria-label="Insira sua senha" required>
+        </div>
+        <button type="submit" class="button">Entrar</button>
+      </form>
+    </section>
+
+    <!-- Seção de Produtos -->
+    <section class="product-list">
+      <h2>Nossos Produtos</h2>
+      <div class="product-item">
+        <h3>Jogo Matemático XYZ</h3>
+        <p>Aprenda matemática de forma divertida com este jogo!</p>
+        <button class="button" aria-label="Compre agora o jogo XYZ">Compre Agora</button>
+      </div>
+      <div class="product-item">
+        <h3>Ebook Educacional ABC</h3>
+        <p>Conheça este ebook cheio de dicas para melhorar o aprendizado.</p>
+        <button class="button" aria-label="Compre agora o ebook ABC">Compre Agora</button>
+      </div>
+    </section>
+
+    <!-- Contato via WhatsApp -->
+    <section class="contact">
+      <h2>Contato</h2>
+      <p>Quer falar conosco? <a href="https://wa.me/5511912345678" target="_blank" aria-label="Contato via WhatsApp">Clique aqui para enviar uma mensagem pelo WhatsApp</a>.</p>
+    </section>
+
+  </div>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>Siga-nos e fique por dentro das novidades!</p>
+    <p>&copy; 2024 PM. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
